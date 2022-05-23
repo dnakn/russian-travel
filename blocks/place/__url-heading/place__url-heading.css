@@ -1,0 +1,5 @@
+.place__url-heading {
+  display: flex;
+  align-items: flex-end;
+  margin: 0 0 12px 0;
+}
