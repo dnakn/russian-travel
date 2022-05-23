@@ -1,0 +1,14 @@
+.cover__overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-decoration: none;
+  z-index: 2;
+}
+
+.cover__overlay:hover + .cover__background {
+  opacity: 0.3;
+}

@@ -1,0 +1,10 @@
+.cover__background {
+  max-width: 1184px;
+  width: 100%;
+  opacity: 0.8;
+}
+
+.cover__background:hover {
+  cursor: pointer;
+  opacity: 0.3;
+}
