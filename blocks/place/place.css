@@ -11,14 +11,22 @@
   margin-bottom: 0;
 }
 
-@media  screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .place {
     grid-template-columns: 1fr 456px;
+    gap: 32px 40px;
   }
 }
 
-@media  screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .place {
     grid-template-columns: 1fr 352px;
+    margin: 0 auto 73px auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    grid-template-columns: 1fr 288px;
   }
 }

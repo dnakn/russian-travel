@@ -9,3 +9,9 @@
     max-width: 928px;
   }
 }
+
+@media screen and (max-width: 786px) {
+  .lead__image-container {
+    max-width: 768px;
+  }
+}
