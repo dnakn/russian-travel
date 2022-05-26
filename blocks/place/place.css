@@ -10,3 +10,15 @@
 .place:last-child {
   margin-bottom: 0;
 }
+
+@media  screen and (max-width: 1024px) {
+  .place {
+    grid-template-columns: 1fr 456px;
+  }
+}
+
+@media  screen and (max-width: 768px) {
+  .place {
+    grid-template-columns: 1fr 352px;
+  }
+}
