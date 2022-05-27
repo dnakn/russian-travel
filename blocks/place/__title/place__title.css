@@ -7,8 +7,19 @@
   margin: 0;
 }
 
-@media  screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .place__title {
     max-width: 440px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__title {
+    max-width: 288px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 32px;
   }
 }

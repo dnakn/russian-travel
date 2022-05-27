@@ -22,3 +22,15 @@
     max-width: 352px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .place__paragraph {
+    max-width: 288px;
+    width: 100%;
+    margin: 0 auto 25px auto;
+  }
+
+  .place__paragraph:last-child {
+    margin: 0 auto 0 auto;
+  }
+}
