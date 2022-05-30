@@ -6,11 +6,10 @@
   display: flex;
   align-items: flex-end;
   margin: 0 0 12px 0;
-  color: #AAAAAA;
-
+  color: #aaaaaa;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .place__url-heading {
     line-height: 12px;
   }

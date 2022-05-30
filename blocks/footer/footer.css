@@ -13,14 +13,14 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 867px) {
   .footer {
     max-width: 720px;
     padding: 88px 0 24px 0;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .footer {
     flex-direction: column;
     padding: 64px 0 24px 0;
